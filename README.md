@@ -1,52 +1,46 @@
 # Java Library Management System
 
-A desktop library-management application built with Java Swing and Maven. The project uses object-oriented design to manage printed books and eBooks through a graphical interface.
+A desktop library-management application built with Java Swing. The project uses object-oriented programming, inheritance, file storage, and a graphical interface to manage printed books and eBooks.
 
 ## Features
 
-- Add printed books and eBooks
-- Remove books from the collection
+- Add and remove books
 - Search by title or author
-- Display the complete library
-- Save and load records using serialization
-- Export library information in CSV format
-- Separate models for physical and digital books
+- Display the full library collection
+- Separate printed-book and eBook models
+- CSV import/export and Java serialization
+- Swing forms created in NetBeans
+- Multilingual interface support
 
-## Technologies and concepts
+## Technologies and Concepts
 
 - Java 22
-- Swing GUI
+- Swing
 - Maven
-- Interfaces and inheritance
-- Singleton pattern
-- File I/O, CSV, and object serialization
+- Inheritance and interfaces
+- Singleton-style library access
+- File I/O, CSV, and serialization
 
-## Run the project
+## Run the Project
 
 ### NetBeans
 
-1. Clone or download the repository.
-2. Open the folder as a Maven project in NetBeans.
+1. Open the repository as a Maven project.
+2. Allow Maven to load the project.
 3. Run `LibraryManagementSystem.java`.
 
-### Command line
+### Command Line
 
 ```bash
 mvn clean compile
-mvn exec:java -Dexec.mainClass="com.mycompany.libraryoperations.LibraryManagementSystem"
+mvn exec:java -Dexec.mainClass=com.mycompany.libraryoperations.LibraryManagementSystem
 ```
 
-## Main structure
+## Source Layout
 
-- `Book`, `PrintedBook`, and `EBook` define the data model.
-- `Library` manages the collection and persistence operations.
-- `LibraryManagementSystem` launches the application.
-- `com.Project.FinalProject` contains the Swing screens.
+- `com.mycompany.libraryoperations` – book models, collection logic, and persistence
+- `com.Project.FinalProject` – Swing menus and management screens
 
-## Learning outcomes
+## What I Practiced
 
-This project applies inheritance, interfaces, polymorphism, the Singleton pattern, collections, persistence, and event-driven GUI programming in one complete Java application.
-
-## Author
-
-Kiara Bartuccio — Computer Technology student at Vanier College.
+This project helped me apply inheritance, polymorphism, interfaces, GUI event handling, persistence, and separation between application logic and presentation.
