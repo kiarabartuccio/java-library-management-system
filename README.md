@@ -4,6 +4,8 @@ A desktop library-management application built with Java Swing. The project uses
 
 ## Quick Start
 
+HOW I RUN PROJECT: SAVE ZIP, UPLOAD TO NETBEANS, RUN
+
 Install **Java 22** and **Maven**, download and extract the repository, then:
 
 - **Windows:** double-click `run.bat`
