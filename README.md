@@ -2,6 +2,15 @@
 
 A desktop library-management application built with Java Swing. The project uses object-oriented programming, inheritance, file storage, and a graphical interface to manage printed books and eBooks.
 
+## Quick Start
+
+Install **Java 22** and **Maven**, download and extract the repository, then:
+
+- **Windows:** double-click `run.bat`
+- **macOS/Linux:** run `chmod +x run.sh && ./run.sh`
+
+The launcher compiles the source and opens the Swing application automatically.
+
 ## Features
 
 - Add and remove books
