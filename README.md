@@ -2,6 +2,22 @@
 
 A desktop library-management application built with Java Swing. The project uses object-oriented programming, inheritance, file storage, and a graphical interface to manage printed books and eBooks.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/main-menu.png" width="350" alt="Library Management System main menu"><br><b>Main Menu</b></td>
+    <td align="center"><img src="docs/screenshots/add-book.png" width="410" alt="Add a book form"><br><b>Add a Book</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/remove-book.png" width="380" alt="Remove a book screen"><br><b>Remove a Book</b></td>
+    <td align="center"><img src="docs/screenshots/search-by-title.png" width="380" alt="Search books by title"><br><b>Search by Title</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/screenshots/search-by-author.png" width="420" alt="Search books by author"><br><b>Search by Author</b></td>
+  </tr>
+</table>
+
 ## Quick Start
 
 HOW I RUN PROJECT: SAVE ZIP, UPLOAD TO NETBEANS, RUN
